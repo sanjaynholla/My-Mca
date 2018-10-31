@@ -1,0 +1,46 @@
+.das11
+{
+    background: #f2f2f2;
+    padding:2px;
+    margin-top: -31px;
+    margin-left: 15%;
+}
+
+.markstable td, tr
+{
+	text-align: center;
+	width:75px;
+}
+
+.blnk 
+{
+	border: 1px solid black;
+}
+
+.blnk td
+{
+	text-align: left;
+}
+
+.gt 
+{
+	border: 1px solid black;
+}
+
+.gt td
+{
+	text-align: center;
+	width:5px;
+}
+
+
+
+
+.das
+{
+    background: #f2f2f2;
+    padding:2px;
+    margin-top: -13px;
+    margin-left: 15%;
+    margin-bottom: 13px;
+}

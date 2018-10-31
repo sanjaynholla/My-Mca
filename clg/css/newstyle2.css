@@ -1,0 +1,167 @@
+
+.button 
+{
+    background-color: #145A32; /*   */
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.button:hover 
+{
+    background-color: #196F3D; /* Green */
+    color: white;
+}
+
+button
+{
+	background-color: brown;
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    font-size: 16px;
+    margin: 5px;
+    float: right;
+    margin-top: 15px;
+
+}
+
+.tabl
+{
+	background-color: white;
+	color: #ffffff;
+	font-size: 20px;
+	width: 10%;
+	/*padding-top: 50px;*/
+    padding-right: 10px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.div1
+{
+	padding-top: 0px;
+}
+/*#d2ddef*/
+
+/*"width: 150px;height:100px; font-size: 20px;*/
+
+.demo-table 
+ {
+	/*background: #d9eeff;*/
+	width: 60%;
+	border-spacing: initial;
+	margin: 2px 0px;
+	word-break: break-word;
+	table-layout: auto;
+	line-height: 1.8em;
+	color: white;
+	border-radius: 8px;
+	padding: 20px 40px;
+}
+
+.demo-table td, tr 
+{
+	padding: 8px 0px;
+    color: #3049c7;
+}
+
+.demoInputBox 
+{
+	padding: 8px 30px;
+	border: #a9a9a9 1px solid;
+	border-radius: 4px;
+}
+
+.btnRegister 
+{
+	padding: 10px 30px;
+	background-color: #3367b2;
+	border: 0;
+	color: #FFF;
+	cursor: pointer;
+	border-radius: 8px;
+	margin-left: 275px;
+    float: center;
+}
+
+.btnRegister:hover 
+{
+    background-color: #2C4FB9; /*  */
+    color: white;
+}
+
+.delbtn
+{
+    padding: 3px 3px;
+}
+
+.das
+{
+    background: #f2f2f2;
+    padding:2px;
+    margin-top: -31px;
+    margin-left: 15%;
+}
+
+.das1
+{
+    background: #f2f2f2;
+    padding:2px;
+    margin-top: -13px;
+    margin-left: 15%;
+}
+
+div.a
+{
+    margin-left: 15%;
+}
+
+div.b
+{
+    margin-left: 20%;
+}
+
+.btnRegister2 
+{
+    padding: 10px 30px;
+    background-color: green;
+    border: 0;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 250px;
+    float: center;
+}
+.demo-table2 td, tr 
+{
+    padding: 1px 0px;
+    color: #3049c7;
+    margin-left: 20%;
+}
+
+.demoInputBox1 
+{
+    padding: 8px 20px;
+    border: #a9a9a9 1px solid;
+    border-radius: 4px;
+}
+
+.btnRegister4
+{
+    padding: 10px 30px;
+    background-color: #3367b2;
+    border: 0;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 200px;
+    float: center;
+}

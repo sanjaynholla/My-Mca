@@ -1,0 +1,91 @@
+<?php include 'newheader.php'?>
+<!--<br/><br/><br/><br/>-->
+<?php
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $db = "mydb";
+
+// Create connection
+    $db = mysqli_connect($servername, $username, $password, $db);
+// Check connection
+    if (!$db) 
+    {
+        die("Connection failed: " . mysqli_connect_error());
+    } 
+    
+    if(isset($_POST['sea_btn']))
+    {
+        $id=$_POST['del'];
+        $sql = "SELECT * FROM co WHERE id=$id";
+        $result = mysqli_query($db, $sql);
+        if (mysqli_num_rows($result) > 0)
+        {
+            ?>
+        <!--<h3 style="color:blue;text-align:center;">ID &nbsp&nbsp Name &nbsp&nbsp Department &nbsp&nbsp Username &nbsp&nbsp Password </h3>-->
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>View User</title>
+            <link rel="stylesheet" href="css/newstyle.css"> 
+        </head>
+        <body>
+            <center>
+        <div class="div1">
+        <table class="tabl" align="center">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Username</th>
+                <th>Mail</th>
+                <th>Mobile</th>
+                <th>Starting Date</th>
+                <th>Ending Date</th>
+                <!--<th>Password</th>-->
+            </tr>    
+        <?php
+        while($row = mysqli_fetch_assoc($result))
+        {
+            $id=$row["id"];
+            $name=$row["name"];
+            $dept=$row["department"];
+            $usr=$row["username"];
+            $mail=$row["mail"];
+            $mb=$row["mobile"];
+            $sd=$row["sdate"];
+            $ed=$row["edate"];
+
+            print "<tr> <td>";
+            echo $id; 
+            print "</td> <td>";
+            echo $name; 
+            print "</td> <td>";
+            echo $dept; 
+            print "</td> <td>";
+            echo $usr;
+            print "</td> <td>";
+            echo $mail;
+            print "</td> <td>";
+            echo $mb;
+            print "</td> <td>";
+            echo $sd;
+            print "</td> <td>";
+            echo $ed; 
+            print "</td> </tr>";
+            /*echo $pwd; 
+            print "</td> </tr>";*/
+        }
+    } 
+    else 
+    {
+        echo "No Results Found";
+    }
+    mysqli_close($db);
+?>
+</table>
+</center>
+</div>
+</form>
+</body>
+</html>
