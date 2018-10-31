@@ -1,0 +1,177 @@
+
+.button 
+{
+    background-color: #5B7AD8; /*   */
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.button:hover 
+{
+    background-color: #2C4FB9; /*  */
+    color: white;
+}
+
+/*button
+{
+	background-color: brown;
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    font-size: 16px;
+    margin: 5px;
+    float: right;
+    margin-top: 15px;
+}*/
+
+.tabl
+{
+	background-color: white;
+	color: #ffffff;
+	font-size: 20px;
+	width: 80%;
+	/*padding-top: 50px;*/
+    padding-right: 10px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.tabll
+{
+    background-color: white;
+    color: #ffffff;
+    font-size: 19px;
+    width: 80%;
+    /*padding-top: 50px;*/
+    padding-right: 10px;
+    margin-left: -4%;
+    margin-top: 1%;
+}
+
+th
+{
+	background-color: #508fff;
+	padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+
+tr , td
+{
+	padding: 2px;
+    text-align: center;
+    background-color: #d2ddef;
+    color: black;
+}
+
+.div1
+{
+	padding-top: 0px;
+}
+/*#d2ddef*/
+
+/*"width: 150px;height:100px; font-size: 20px;*/
+
+.demo-table 
+ {
+	/*background: #d9eeff;*/
+	width: 60%;
+	border-spacing: initial;
+	margin: 2px 0px;
+	word-break: break-word;
+	table-layout: auto;
+	line-height: 1.8em;
+	color: white;
+	border-radius: 8px;
+	padding: 20px 40px;
+}
+
+.demo-table td 
+{
+	padding: 8px 0px;
+}
+
+.demoInputBox 
+{
+	padding: 8px 30px;
+	border: #a9a9a9 1px solid;
+	border-radius: 4px;
+}
+
+.btnRegister 
+{
+	padding: 10px 30px;
+	background-color: #3367b2;
+	border: 0;
+	color: #FFF;
+	cursor: pointer;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+
+.delbtn
+{
+    padding: 3px 3px;
+}
+
+.das
+{
+    background: #f2f2f2;
+    padding:2px;
+    margin-top: -31px;
+    margin-left: 15%;
+}
+
+.das1
+{
+    background: #f2f2f2;
+    padding:2px;
+    margin-top: 5px;
+    margin-left: 15%;
+}
+
+div.a
+{
+    margin-left: 15%;
+}
+
+div.b
+{
+    margin-left: 20%;
+}
+
+
+
+.markstable
+{
+    width: 100%;
+
+}
+
+.markstable th,tr,td 
+{
+    text-align: center;
+}
+
+
+
+.tabl2
+{
+    background-color: white;
+    color: #ffffff;
+    font-size: 19px;
+    width: 50%;
+    /*padding-top: 50px;*/
+    padding-right: 10px;
+    margin-left: 4%;
+    margin-top: 1%;
+}

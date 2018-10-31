@@ -1,0 +1,60 @@
+
+/*#b2cecf*/
+h2 
+{
+    color: black;
+    text-align: center;
+}
+
+div 
+{
+	border-style: groove;
+	border-color: #1b64be;
+	border-spacing: 30px;
+	border-radius: 8px;
+	margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 350px;
+    margin-left: 350px;
+    background-color: #fffdd0;
+    border-width: thick;
+
+    padding-top: 0px;
+    /*padding-right: -500px;*/
+    padding-bottom: 120px;
+    /*padding-left: -500px;*/
+
+    height: 300px;
+    width: 400px;
+}
+
+.button 
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.form-submit-button 
+{
+	background: red;
+	color: red;
+	border-style: outset;
+	border-color: red;
+	height: 50px;
+	width: 100px;
+	font: bold 15px arial, sans-serif;
+	text-shadow:none;
+}
+
+
+
+input[type="text" i] , input[type="password" i] {
+    padding: 1px 1px;
+    color: blue;
+}

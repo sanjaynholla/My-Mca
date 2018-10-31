@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+/* My styles */
+
+
+/* Responsive Images */
+img, img.scale-with-grid 
+{
+	outline: 0;
+	max-width: 100%;
+	height: auto; 
+	display: block;
+    margin: auto;
+}
+
+body{
+	font-family:
+"josefin-sans";
+font-size: 18px
+}
+
+body.p
+{
+	font-family: "josefin-sans", "Gemunu Libre";
+}
+
+.blue-bg
+{
+background: #5B7AD8;
+color: white;
+padding-bottom: 15px;
+}
+
+.img-round 
+{
+	width: 15%;
+	float: left;
+	padding: 15px;
+		
+}
+.block
+{
+	display:inline;
+}
+
+.downloads
+{
+	text-align: center;
+}
+
+	
+	.blinking{
+    animation:blinkingText 0.8s infinite;
+		font-size: 120%;
+}
+.fontsize120
+{font-size: 120%;}
+@keyframes blinkingText{
+    0%{     color: #FF0000;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #FF0000;    }
+}
+	.download{
+		background: #5B7AD8;
+		color: white;
+		width: 85%;
+		padding: 2.5%;
+		text-align: center;
+	}
+	.news
+	{
+		/*background:#FFFFFF;*/
+		width: 85%;
+		padding: 2.5%;
+		text-align: center;
+		
+	}
+
+.coe
+{
+	width:45%;
+}
+.para1 
+{
+	font-size: 25px;
+	font-family:"josefin-sans"
+}
+.card
+{
+	width:1172px;
+	height:378px;
+	background: #5B7AD8;
+	
+}
+
+.img25 {
+width: 25px;
+float: left;
+}
+
+.contact 
+{
+	padding: 15px;
+	border: 2px solid #000000;
+    border-radius: 8px;
+}
